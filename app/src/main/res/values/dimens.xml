@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="nilaiPadding">20dp</dimen>
+    <dimen name="sizeHuruf">60sp</dimen>
+    <dimen name="ukuranteks">20sp</dimen>
+</resources>

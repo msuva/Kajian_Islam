@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/holo_green_dark"
+    android:paddingTop="@dimen/nilaiPadding"
+    android:paddingBottom="@dimen/nilaiPadding"
+    android:paddingLeft="@dimen/nilaiPadding"
+    android:paddingRight="@dimen/nilaiPadding"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Kajian Islam"
+        android:textSize="@dimen/sizeHuruf"
+        android:textColor="@android:color/white"
+        android:id="@+id/loginText"
+        android:gravity="center"
+        android:paddingTop="50dp"/>
+
+    <Button
+        android:id="@+id/catatan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Catatan kajian"
+        android:onClick="masukCatatanKajian"
+        />
+
+
+    <Button
+        android:id="@+id/buatcatatan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Buat catatan baru"
+        android:onClick="masukBuatCatatan"/>
+
+</LinearLayout>

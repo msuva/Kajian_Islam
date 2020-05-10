@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".BuatCatatanBaru"
+    android:orientation="vertical"
+    android:paddingTop="45dp"
+    android:paddingRight="@dimen/nilaiPadding"
+    android:paddingBottom="@dimen/nilaiPadding"
+    android:paddingLeft="@dimen/nilaiPadding">
+
+    <TextView
+        android:id="@+id/judulKajian"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Judul Kajian:"
+        android:textSize="20sp"/>
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="isi judul kajian di sini" />
+
+    <TextView
+        android:id="@+id/namaUstadz"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/namaUstadz"
+        android:textSize="@dimen/ukuranteks"/>
+
+    <EditText
+        android:id="@+id/inputUstadz"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="isi nama ustadz di sini" />
+
+    <TextView
+        android:id="@+id/Lokasi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Lokasi:"
+        android:textSize="@dimen/ukuranteks"/>
+
+    <EditText
+        android:id="@+id/inputLokasi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="isi lokasi di sini" />
+
+    <TextView
+        android:id="@+id/tanggal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Tanggal:"
+        android:textSize="@dimen/ukuranteks"/>
+
+    <EditText
+        android:id="@+id/inputTanggal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="date"
+        android:hint="isi tanggal di sini"
+        />
+
+    <TextView
+        android:id="@+id/isiKajian"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Rangkuman Kajian:"
+        android:textSize="@dimen/ukuranteks" />
+
+    <EditText
+        android:id="@+id/inputIsiKajian"
+        android:layout_width="match_parent"
+        android:layout_height="180dp"
+        android:ems="10"
+        android:gravity="start|top"
+        android:inputType="textMultiLine"
+        android:hint="isi rangkuman kajian di sini"/>
+
+    <Button
+        android:id="@+id/simpanButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="simpan"
+        android:onClick="simpanRangkuman"/>
+
+
+</LinearLayout>
